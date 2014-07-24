@@ -1,5 +1,5 @@
 import nose
-from generate_queries import training, validation, create_query
+from keywordspice import training, validation, create_query
 
 class TestGenerateQueries(object):
     def __init__(self):
