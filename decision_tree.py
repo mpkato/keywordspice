@@ -97,7 +97,7 @@ class Node:
         if gain <= 0:
             return False
         # debug
-        print "Selected: %s, Gain: %s" % (feature, gain)
+        #print "Selected: %s, Gain: %s" % (feature, gain)
         # create children and return True
         self._create_children(feature)
         return True

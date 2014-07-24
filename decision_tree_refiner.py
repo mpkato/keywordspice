@@ -42,7 +42,7 @@ class DecisionTreeRefiner:
 
         if max_gain >= 0:
             # debug
-            print "%s remains (Gain: %s)" % (result, max_gain)
+            #print "%s remains (Gain: %s)" % (result, max_gain)
             return result
         else:
             # stop if maximum gain < 0
@@ -115,7 +115,7 @@ class DecisionTreeRefiner:
 
         if max_gain >= 0:
             # debug
-            print "%s remains (Gain: %s)" % (result, max_gain)
+            #print "%s remains (Gain: %s)" % (result, max_gain)
             return result
         else:
             # stop if maximu gain < 0
