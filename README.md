@@ -28,11 +28,11 @@ and each line in the files must be of the following format:
 
 `<ID> <Label> <Document>`
 
-where <ID> is a unique identifier in the labeled data,
-<Label> is either 1 (positive) or 0 (negative),
-and <Document> is a list of words separated by whitespaces.
+where &lt;ID&gt; is a unique identifier in the labeled data,
+&lt;Label&gt; is either 1 (positive) or 0 (negative),
+and &lt;Document&gt; is a list of words separated by whitespaces.
 Note that variables should be separated by **TAB**,
-and <Document> should include only pre-processed words
+and &lt;Document&gt; should include only pre-processed words
 (e.g. stopwords are excluded).
 
 Usage
